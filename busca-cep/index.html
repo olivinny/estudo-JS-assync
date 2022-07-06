@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header-container">
+    <div class="header">
+      <form id="buscaCep" class="header">
+        <label for="cep">Entre com o CEP</label>
+        <input id="cep" type="text" name="cep">
+        <input id="enviar" type="button" value="Buscar">
+      </form>
+    </div>
+  </header>
+  <main class="main-container">
+    <div class="main">
+      <div class="flexItem">
+        <p>Logradouro</p>
+        <p id="logradouro"></p>
+      </div>
+      <div class="flexItem">
+        <p>Bairro</p>
+        <p id="bairro"></p>
+      </div>
+      <div class="flexItem">
+        <p>Cidade</p>
+        <p id="cidade"></p>
+      </div>
+      <div class="flexItem">
+        <p>Estado</p>
+        <p id="estado"></p>
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
